@@ -1,0 +1,31 @@
+package com.centrallearning.model;
+
+public class Employee {
+
+	
+	String name;
+	String age;
+	String department;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
+	}
+	public String getDepartment() {
+		return department;
+	}
+	public void setDepartment(String department) {
+		this.department = department;
+	}
+	
+	
+	
+}
